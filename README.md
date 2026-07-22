@@ -29,4 +29,4 @@
 - Mengelola data reservasi.
 - Memantau status pesanan dan reservasi.
 
-### App Version 0.1.0-alpha release
+### App Version 0.1.0-alpha release 
