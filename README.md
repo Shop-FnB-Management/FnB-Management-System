@@ -1,5 +1,7 @@
 # FnB-Management-System
 
+![Version](https://img.shields.io/badge/version-v0.1.0--alpha-blue)
+
 **FnB Management System** adalah sistem digital yang digunakan untuk membantu pengelolaan operasional bisnis **Food & Beverage (FnB)** secara lebih efisien. Sistem ini menyediakan fitur untuk mengelola reservasi, pemesanan, pembayaran, katalog produk, serta data pesanan dan reservasi dalam satu platform.
 
 ---
@@ -29,4 +31,3 @@
 - Mengelola data reservasi.
 - Memantau status pesanan dan reservasi.
 
-### App Version 0.1.0-alpha release 
