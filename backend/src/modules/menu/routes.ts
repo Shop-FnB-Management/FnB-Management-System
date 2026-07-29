@@ -1,4 +1,4 @@
-import { Hono } from "npm:hono";
+import { Hono } from "hono";
 
 import { createMenu, getMenu } from "./controller.ts";
 
