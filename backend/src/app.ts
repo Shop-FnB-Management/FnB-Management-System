@@ -17,3 +17,12 @@ app.get("/health", (c)=>{
   });
 
 });
+
+import { menuRoutes }
+from "./modules/menu/routes.ts";
+
+
+app.route(
+ "/menu",
+ menuRoutes
+);
