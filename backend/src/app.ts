@@ -1,28 +1,20 @@
-import { Hono } from 'hono'
+import { Hono } from "hono";
 
 export const app = new Hono();
 
-
 app.get("/", (c) => {
   return c.json({
-    message: "Restaurant API"
+    message: "Restaurant API",
   });
 });
 
-app.get("/health", (c)=>{
-
+app.get("/health", (c) => {
   return c.json({
-    status:"ok",
-    service:"restaurant-api"
+    status: "ok",
+    service: "restaurant-api",
   });
-
 });
 
-import { menuRoutes }
-from "./modules/menu/routes.ts";
+import { menuRoutes } from "./modules/menu/routes.ts";
 
-
-app.route(
- "/menu",
- menuRoutes
-);
+app.route("/menu", menuRoutes);

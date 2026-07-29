@@ -1,22 +1,17 @@
 export const Keys = {
-
-  menu(id:string){
+  menu(id: string) {
     return ["menu", id];
   },
 
-
-  order(code:string){
+  order(code: string) {
     return ["orders", code];
   },
 
-
-  payment(code:string){
+  payment(code: string) {
     return ["payments", code];
   },
 
-
-  admin(username:string){
+  admin(username: string) {
     return ["admins", username];
-  }
-
+  },
 };

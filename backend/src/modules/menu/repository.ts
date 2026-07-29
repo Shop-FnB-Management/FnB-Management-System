@@ -77,6 +77,7 @@ export async function updateMenuItem(
    updated
  );
 
+
  return updated;
 
 }
@@ -88,6 +89,7 @@ export async function deleteMenuItem(
  await kv.delete(
    Keys.menu(id)
  );
+
 
  return true;
 

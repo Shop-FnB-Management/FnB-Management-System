@@ -1,35 +1,15 @@
-import { Hono } 
-from "npm:hono";
+import { Hono } from "npm:hono";
 
+import { createMenu, getMenu } from "./controller.ts";
 
-import {
-getMenu,
-createMenu
-}
-
-from "./controller.ts";
-
-export const menuRoutes =
-new Hono();
+export const menuRoutes = new Hono();
 
 menuRoutes.get(
- "/",
- getMenu
+  "/",
+  getMenu,
 );
 
 menuRoutes.post(
- "/",
- createMenu
+  "/",
+  createMenu,
 );
-
-Now:
-GET /menu
-
-calls:
-getMenu()
-
-and
-POST /menu
-
-calls:
-createMenu()
