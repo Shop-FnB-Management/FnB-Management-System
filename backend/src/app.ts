@@ -8,3 +8,12 @@ app.get("/", (c) => {
     message: "Restaurant API"
   });
 });
+
+app.get("/health", (c)=>{
+
+  return c.json({
+    status:"ok",
+    service:"restaurant-api"
+  });
+
+});
