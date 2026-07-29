@@ -1,0 +1,28 @@
+# Deno
+deno.lock
+.deno/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Build / runtime output
+dist/
+build/
+coverage/
+.cache/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# Editors
+.idea/
+.vscode/
+*.swp
+
+# Optional Node tooling
+node_modules/
